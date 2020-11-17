@@ -4,7 +4,7 @@
 ### The part(s) of UML diagrams of the existing design where the design problem is detected.
 ![Image description](https://github.com/jrdalino/unissa/blob/master/images/uml-before.png)
 ### The cause(s) for redesign.
-- To follow
+- Persistent Class which converts Objects to CSV and vice versa is tightly coupled to the other parts of the program. Supporting new persistence destinations (RDBS, XML, etc) is not trivial.
 ### The aspect(s) that should be flexibly varied in the new design.
 ![Image description](https://github.com/jrdalino/unissa/blob/master/images/uml-after.png)
 

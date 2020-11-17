@@ -37,7 +37,16 @@
 - Step 5: Created the "Adapters" CsvAdapter and XmlAdapter which implements StorageInterface and adapts the Adaptee to the Target.
 - Step 6: Created the "Adaptees" CsvAdaptee and XmlAdaptee which contains the openFile(), writeLine(), readLine() and closeFile() methods.
 
-## Execution Output
+## Usage
+- Clone
+```
+$ git clone https://github.com/jrdalino/unissa.git
+```
+- cd Unissa/
+- Open using Intellij
+- Run Main
+
+## Output
 ```
 Saving to CSV
 Saving to XML
@@ -50,6 +59,20 @@ Category A - XML
 Category B - XML
 Category C - XML
 ```
+
+## Output Explanation
+- My main class stores a list of Categories in my Category object
+- I then test storing my list of Categories as CSV or XML
+- To simulate, i just print "Saving to CSV" or "Saving to XML for now"
+- I initialise my categories object
+- I then load my categories from CSV Database (mocked for now)
+- I initialise my categories object again
+- Lastly, I load my categories from my XML Database (mocked for now)
+
+## Conclusion
+- To support additional persistence storage mechanism, i simply add an Adapter that implements my Target.
+- Next, I create my Adaptee to support the new storage mechanism
+- Lastly, Modify my client to choose the newly supported storage mechanism
 
 ## References
 - To follow

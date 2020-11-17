@@ -2,11 +2,11 @@
 
 ## Identification of the Design Problem
 ### The part(s) of UML diagrams of the existing design where the design problem is detected.
-![Image description](https://github.com/jrdalino/unissa/blob/master/uml-before.png)
+![Image description](https://github.com/jrdalino/unissa/blob/master/images/uml-before.png)
 ### The cause(s) for redesign.
 - To follow
 ### The aspect(s) that should be flexibly varied in the new design.
-![Image description](https://github.com/jrdalino/unissa/blob/master/uml-after.png)
+![Image description](https://github.com/jrdalino/unissa/blob/master/images/uml-after.png)
 
 ## Presentation
 ### Brief description of the design problem

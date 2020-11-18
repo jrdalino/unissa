@@ -75,4 +75,5 @@ Category C - XML
 - Lastly, Modify my client to choose the newly supported storage mechanism
 
 ## References
-- To follow
+- https://springframework.guru/gang-of-four-design-patterns/adapter-pattern/
+- https://refactoring.guru/design-patterns/adapter
